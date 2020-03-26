@@ -1,0 +1,5 @@
+env/
+.vscode/
+*.jpg
+*.png
+*.wav
