@@ -48,12 +48,12 @@ When running the script it will output a number of configuration variables which
 ## Examples
 
 ```
-/enc.py -i "intro/*.jpg" intro.wav
+./enc.py -i "intro/*.jpg" intro.wav
 ```
 Encode all jpeg images from the intro directory into an intro.wav file with the default settings of 3fps, 150 lines, and 0.2ms sync pulses.
 
 
 ```
-/enc.py -i "intro/*.jpg" -f 10 -l 100 -p 0.1 Intro.wav
+./enc.py -i "intro/*.jpg" -f 10 -l 100 -p 0.1 Intro.wav
 ```
 Encode the same frames but at 10 frames per second, 100 lines of resolution and 0.1ms sync pulses.
