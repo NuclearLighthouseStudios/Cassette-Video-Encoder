@@ -1,3 +1,4 @@
-Pillow==7.0.0
-scipy==1.4.1
-SoundFile==0.10.3.post1
+Pillow~=9.0.0
+scipy~=1.7.0
+numpy~=1.22.0
+SoundFile~=0.10.0
